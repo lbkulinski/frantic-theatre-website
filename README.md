@@ -21,8 +21,6 @@ then visit http://localhost:8000
   the top — easy to restyle later)
 - `js/upcoming.js` — the list of upcoming events lives here; edit the
   `EVENTS` array when a show is booked
-- `CNAME` — tells GitHub Pages to serve the site at frantictheatreco.org
-  once it's deployed there (see Deploying below)
 
 All placeholder text is wrapped in `[BRACKETS]` — search the files for
 `[` or `PLACEHOLDER` to find everything that still needs real content.
