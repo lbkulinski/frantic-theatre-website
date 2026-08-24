@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frantic Theatre Co. — Upcoming Projects</title>
+<meta name="description" content="Frantic Theatre Co.'s next productions and events, with ticket and info links.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Courier+Prime&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">Frantic Theatre Co.</a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="index.html">About</a>
+      <a href="productions.html">Past Productions</a>
+      <a href="upcoming.html" aria-current="page">Upcoming</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <span class="label">Now Showing</span>
+      <h1>What's <span class="underline-mark">next.</span></h1>
+      <p class="tagline">Our next productions and events, as they're booked.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="ticket-row" id="ticket-row" hidden></div>
+
+      <div class="empty-state" id="empty-state" hidden>
+        <span class="label">Nothing scheduled</span>
+        <p>No performances on the books right now — follow
+          <a href="contact.html">@frantictheatrecompany</a> on Instagram to hear
+          about the next one first.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; 2026 Frantic Theatre Co.</span>
+    <span><a href="contact.html">Get in touch</a></span>
+  </div>
+</footer>
+
+<script src="js/upcoming.js"></script>
+
+</body>
+</html>
